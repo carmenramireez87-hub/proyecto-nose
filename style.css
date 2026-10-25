@@ -1,0 +1,191 @@
+h1 {
+    text-align: center;
+    font-family: "Geist Pixel", sans-serif;
+    font-size: 70px;
+    color: #efd6d6;
+}
+
+
+body {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("landscape.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90vh;
+    
+}
+
+/* pagina principal */
+
+.gif-wavingcat {
+
+    width: 280px;
+    height: 220px;
+}
+
+.botones1 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+}
+
+.hola {
+    width: 120px;
+    height: auto;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+.chau {
+    width: 120px;
+    height: auto;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+/* pagina chau */
+
+#screen2-container {
+    display: none;
+    position: fixed;
+    inset: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    max-width: 600px;
+    aspect-ratio: 3/2;
+    padding: 20px 20px 100 20px;
+    align-items: center;
+    background-image: url(window.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    gap: 1px;
+    padding-top: 80px;
+    margin-bottom: 50px;
+    
+}
+
+.window2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    max-width: 600px;
+    aspect-ratio: 3/2;
+    padding: 20px 20px 100 20px;
+    align-items: center;
+    background-image: url(window2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    gap: 1px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.botones2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.bromita {
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    margin: 7% auto;
+    margin-bottom: auto
+}
+
+.pochita {
+    width: 200px;
+    height: 120px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Geist Pixel" , sans-serif ;
+    color: #282222;
+    height: 45px;
+    margin-bottom: 10px;
+    margin-top: auto;
+    
+}
+
+/* middle finger cat video */
+
+.middle-finger-cat {
+    height: 90hv;
+
+}
+
+.pochita-girando {
+    margin-bottom: 100px;
+}
+
+.botones3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 40px;
+    margin-right: 150px;
+}
+
+.tambien {
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    margin: 7% auto;
+    
+    margin-bottom: 20px;
+}
+
+.yono {
+    z-index: 1;
+    transition: transform 0.15s ease;
+    cursor: default;
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    cursor: default;
+    user-select: none;
+    position: absolute;
+    margin: 5% auto;
+    
+    margin-bottom:5px;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Geist Pixel" , sans-serif ;
+    color: #282222;
+    height: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
